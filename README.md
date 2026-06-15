@@ -1,20 +1,11 @@
-<!-- Custom CSS for Professional Hover Animations -->
-<style>
-  .tech-badge {
-    transition: transform 0.3s ease, filter 0.3s ease;
-    display: inline-block;
-    margin: 4px;
-  }
-  .tech-badge:hover {
-    transform: translateY(-5px) scale(1.08);
-    filter: brightness(1.2) drop-shadow(0px 5px 12px rgba(0, 230, 118, 0.4));
-  }
-</style>
-
-<!-- Top Layout Header / Quote Section -->
-<p align="center">
-  <img src="https://vercel.app" alt="Coding Quote" />
-</p>
+<!-- Beautiful Typographic Quote Header -->
+<div align="center">
+  <br />
+  <p align="center">
+    <i>"First, solve the problem. Then, write the code."</i> — <b>John Johnson</b>
+  </p>
+  <hr width="50%" />
+</div>
 
 <h1 align="center">Hi there, I'm Hardik Davera 👋</h1>
 <p align="center">
@@ -39,30 +30,72 @@ An engineering-driven **PHP Laravel Developer** passionate about translating com
 
 ---
 
-### 🛠️ Interactive Tech Stack
+### 🛠️ Interactive Tech Stack & Ecosystem
 
-#### 🖥️ Backend & Frameworks
-<div align="left">
-  <span class="tech-badge"><img src="https://shields.io" alt="PHP" /></span>
-  <span class="tech-badge"><img src="https://shields.io" alt="Laravel" /></span>
-  <span class="tech-badge"><img src="https://shields.io" alt="MySQL" /></span>
-</div>
+<!-- 
+Animated SVG Tech Grid: Uses inline CSS keyframes compatible with GitHub's image cache pipeline.
+Cards dynamically pulsate, scale, and shift hues sequentially.
+-->
+<div align="center">
+  <svg width="100%" height="160" viewBox="0 0 800 160" fill="none" xmlns="http://w3.org">
+    <style>
+      .card {
+        transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        cursor: pointer;
+      }
+      .card:hover {
+        transform: translateY(-8px);
+        filter: drop-shadow(0px 12px 20px rgba(0, 230, 118, 0.35));
+      }
+      .glow-php:hover { fill: #4F5D95; }
+      .glow-lar:hover { fill: #FF2D20; }
+      .glow-sql:hover { fill: #00758F; }
+      .glow-vue:hover { fill: #4FC08D; }
+      .glow-js:hover { fill: #F7DF1E; }
+      
+      @keyframes pulse {
+        0% { opacity: 0.8; }
+        50% { opacity: 1; transform: scale(1.01); }
+        100% { opacity: 0.8; }
+      }
+      .ambient { animation: pulse 4s infinite ease-in-out; }
+    </style>
 
-#### 🎨 Frontend Ecosystem
-<div align="left">
-  <span class="tech-badge"><img src="https://shields.io" alt="VueJS" /><img src="https://shields.io" alt="Pinia" /></span>
-  <span class="tech-badge"><img src="https://shields.io" alt="JavaScript" /></span>
-  <span class="tech-badge"><img src="https://shields.io" alt="HTML5" /></span>
-  <span class="tech-badge"><img src="https://shields.io" alt="CSS3" /></span>
-  <span class="tech-badge"><img src="https://shields.io" alt="Bootstrap" /></span>
-  <span class="tech-badge"><img src="https://shields.io" alt="jQuery" /></span>
-</div>
+    <!-- PHP Card -->
+    <g class="card glow-php" transform="translate(20, 20)">
+      <rect width="130" height="110" rx="12" fill="#1E1E2F" stroke="#3A3A55" stroke-width="1.5" />
+      <text x="65" y="55" fill="#E2E8F0" font-family="Segoe UI, sans-serif" font-weight="bold" font-size="16" text-anchor="middle">PHP</text>
+      <text x="65" y="80" fill="#718096" font-family="Segoe UI, sans-serif" font-size="12" text-anchor="middle">Language</text>
+    </g>
 
-#### ⚙️ Integrations & DevTools
-<div align="left">
-  <span class="tech-badge"><img src="https://shields.io" alt="REST API" /></span>
-  <span class="tech-badge"><img src="https://shields.io" alt="Stripe" /></span>
-  <span class="tech-badge"><img src="https://shields.io" alt="Git" /></span>
+    <!-- Laravel Card -->
+    <g class="card glow-lar" transform="translate(175, 20)">
+      <rect width="130" height="110" rx="12" fill="#1E1E2F" stroke="#3A3A55" stroke-width="1.5" />
+      <text x="65" y="55" fill="#E2E8F0" font-family="Segoe UI, sans-serif" font-weight="bold" font-size="16" text-anchor="middle">Laravel</text>
+      <text x="65" y="80" fill="#718096" font-family="Segoe UI, sans-serif" font-size="12" text-anchor="middle">Framework</text>
+    </g>
+
+    <!-- MySQL Card -->
+    <g class="card glow-sql" transform="translate(330, 20)">
+      <rect width="130" height="110" rx="12" fill="#1E1E2F" stroke="#3A3A55" stroke-width="1.5" />
+      <text x="65" y="55" fill="#E2E8F0" font-family="Segoe UI, sans-serif" font-weight="bold" font-size="16" text-anchor="middle">MySQL</text>
+      <text x="65" y="80" fill="#718096" font-family="Segoe UI, sans-serif" font-size="12" text-anchor="middle">Database</text>
+    </g>
+
+    <!-- Vue.js Card -->
+    <g class="card glow-vue" transform="translate(485, 20)">
+      <rect width="130" height="110" rx="12" fill="#1E1E2F" stroke="#3A3A55" stroke-width="1.5" />
+      <text x="65" y="55" fill="#E2E8F0" font-family="Segoe UI, sans-serif" font-weight="bold" font-size="16" text-anchor="middle">Vue.js</text>
+      <text x="65" y="80" fill="#718096" font-family="Segoe UI, sans-serif" font-size="12" text-anchor="middle">Frontend</text>
+    </g>
+
+    <!-- JS Card -->
+    <g class="card glow-js" transform="translate(640, 20)">
+      <rect width="130" height="110" rx="12" fill="#1E1E2F" stroke="#3A3A55" stroke-width="1.5" />
+      <text x="65" y="55" fill="#E2E8F0" font-family="Segoe UI, sans-serif" font-weight="bold" font-size="16" text-anchor="middle">JavaScript</text>
+      <text x="65" y="80" fill="#718096" font-family="Segoe UI, sans-serif" font-size="12" text-anchor="middle">Scripting</text>
+    </g>
+  </svg>
 </div>
 
 ---
@@ -75,11 +108,11 @@ An engineering-driven **PHP Laravel Developer** passionate about translating com
 - **Dynamic ETL Engines:** Engineered a configurable **Custom Import Module** supporting dynamic schema mapping, complex server-side data transformations, custom validations, and asynchronous processing pipelines.
 - **Supply Chain Automation:** Mapped and developed complete **Purchase Lifecycle Workflows** coordinating operations from high-level procurement tracks down to granular stock batch inventory systems.
 - **API Performance Tuning:** Formulated highly optimized RESTful APIs and executed comprehensive query restructures in MySQL to lower server latency and scale application throughput.
-- **Software Excellence:** Maintained rigid compliance with MVC design patterns, robust version control routines, and milestone delivery dates.
+- **Software Excellence:** Maintained rigid compliance with MVC design patterns, strict coding standards, robust version control routines, and milestone delivery dates.
 
 ---
 
-### 📊 Performance Analytics
+### 📊 Metric & Contribution Performance
 <p align="center">
   <img src="https://vercel.app" alt="Hardik's GitHub Stats" height="175px" />
   <img src="https://vercel.app" alt="Top Languages" height="175px" />
