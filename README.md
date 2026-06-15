@@ -10,10 +10,10 @@
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-hardikdavera06.github.io-6366f1?style=flat-square&logo=githubpages&logoColor=white)](https://hardikdavera06.github.io/MyShowcase)&nbsp;&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-hardik--d-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](http://linkedin.com/in/hardik-d-3bb455262)&nbsp;&nbsp;
-[![Email](https://img.shields.io/badge/Gmail-daverahardik5@gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:daverahardik5@gmail.com)&nbsp;&nbsp;
-[![Location](https://img.shields.io/badge/Rajkot%2C%20Gujarat%20🇮🇳-333?style=flat-square)](https://maps.google.com/?q=Rajkot,Gujarat)
+[![Portfolio](https://img.shields.io/badge/Portfolio-hardikdavera06.github.io-6366f1?style=for-the-badge&logo=githubpages&logoColor=white)](https://hardikdavera06.github.io/MyShowcase)&nbsp;&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-hardik--d-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](http://linkedin.com/in/hardik-d-3bb455262)&nbsp;&nbsp;
+[![Email](https://img.shields.io/badge/Gmail-daverahardik5@gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:daverahardik5@gmail.com)&nbsp;&nbsp;
+[![Location](https://img.shields.io/badge/Rajkot%2C%20Gujarat%20🇮🇳-333?style=for-the-badge)](https://maps.google.com/?q=Rajkot,Gujarat)
 
 </div>
 
@@ -41,13 +41,13 @@ Currently working at **Flexgrew Technology**, where I independently develop and 
 
 ## Tech Stack
 
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white) ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white) ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
 
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 
